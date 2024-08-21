@@ -3,6 +3,7 @@ import './App.css';
 
 import {OnOff} from './components/OnOff/OnOff';
 import {UnControlledAccordion} from './components/UnControlledAccordion/UnControlledAccordion';
+import {UnControlledRating} from './components/UnControlledRating/UnControlledRating';
 
 const App = () => {
     console.log('App rendering')
@@ -12,6 +13,7 @@ const App = () => {
             {/*<Accordion titleValue={'Users'} collapsed={false}/>*/}
             <OnOff/>
         <UnControlledAccordion titleValue={'Menu'}/>
+     <UnControlledRating/>
         </div>
     );
 }

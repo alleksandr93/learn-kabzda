@@ -1,0 +1,7 @@
+.rating {
+    cursor: pointer;
+    transition: 0.25s linear;
+}
+.rating:hover {
+    color: #ecec13;
+}

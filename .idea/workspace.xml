@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe89c28-4871-4371-a789-f03e8317f082" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.module.css" afterDir="false" />
+    <list default="true" id="4bf1653a-87cc-4791-9df8-5925bd47130a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledRating/UnControlledRating.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
   "customColor": "",
   "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="2ky8Ttogfnj9MCQxUOFmoYaPJPq" />
+  <component name="ProjectId" id="2kyDFa0gJ6GBKl0CEmKtYDT0170" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +43,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Learn/incubator/learn-kabzda/src/components/UnControlledAccordion",
+    "last_opened_file_path": "C:/Learn/incubator/learn-kabzda/src/components",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +56,6 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Learn\incubator\learn-kabzda\src\components\UnControlledAccordion" />
       <recent name="C:\Learn\incubator\learn-kabzda\src\components" />
     </key>
   </component>
@@ -72,12 +69,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9fe89c28-4871-4371-a789-f03e8317f082" name="Changes" comment="" />
-      <created>1724244468092</created>
+      <changelist id="4bf1653a-87cc-4791-9df8-5925bd47130a" name="Changes" comment="" />
+      <created>1724246820995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724244468092</updated>
-      <workItem from="1724244469896" duration="2185000" />
+      <updated>1724246820995</updated>
+      <workItem from="1724246822699" duration="1623000" />
     </task>
     <servers />
   </component>
