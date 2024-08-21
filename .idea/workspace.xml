@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d40e4b07-c0cb-44f7-b27f-447465501e81" name="Changes" comment="" />
+    <list default="true" id="9fe89c28-4871-4371-a789-f03e8317f082" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,14 +33,11 @@
     "accountId": "918b2e18-4137-48d7-b651-45cff8f7b49d"
   }
 }]]></component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="2kwbst6fCNJeRcHCKafBXpsZDnQ" />
+  <component name="ProjectId" id="2ky8Ttogfnj9MCQxUOFmoYaPJPq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,18 +46,20 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Learn/incubator/learn-kabzda/src/components/UnControlledAccordion",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
+    "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "C:\\Learn\\incubator\\learn-kabzda\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="es6.move.members.recent.items">
-      <recent name="C:\Learn\incubator\learn-kabzda\src\components\Rating\Rating.tsx" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learn\incubator\learn-kabzda\src\components\UnControlledAccordion" />
+      <recent name="C:\Learn\incubator\learn-kabzda\src\components" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -72,65 +72,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d40e4b07-c0cb-44f7-b27f-447465501e81" name="Changes" comment="" />
-      <created>1724197796383</created>
+      <changelist id="9fe89c28-4871-4371-a789-f03e8317f082" name="Changes" comment="" />
+      <created>1724244468092</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724197796383</updated>
-      <workItem from="1724197798646" duration="4468000" />
+      <updated>1724244468092</updated>
+      <workItem from="1724244469896" duration="2185000" />
     </task>
-    <task id="LOCAL-00001" summary="01 Компонент">
-      <option name="closed" value="true" />
-      <created>1724199093192</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1724199093192</updated>
-    </task>
-    <task id="LOCAL-00002" summary="01 Компонент часть 2">
-      <option name="closed" value="true" />
-      <created>1724199778877</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1724199778877</updated>
-    </task>
-    <task id="LOCAL-00003" summary="03 Props">
-      <option name="closed" value="true" />
-      <created>1724201184131</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1724201184131</updated>
-    </task>
-    <task id="LOCAL-00004" summary="04 PropsType">
-      <option name="closed" value="true" />
-      <created>1724202107724</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1724202107724</updated>
-    </task>
-    <task id="LOCAL-00005" summary="04 PropsType">
-      <option name="closed" value="true" />
-      <created>1724202287588</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724202287588</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="01 Компонент" />
-    <MESSAGE value="01 Компонент часть 2" />
-    <MESSAGE value="03 Props" />
-    <MESSAGE value="04 PropsType" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 PropsType" />
   </component>
 </project>

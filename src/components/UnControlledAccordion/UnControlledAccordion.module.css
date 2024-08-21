@@ -1,0 +1,8 @@
+.title{
+    cursor: pointer;
+    transition: 0.2s linear;
+
+}
+.title:hover{
+    text-shadow:  3px 3px 15px #ecec13;
+}

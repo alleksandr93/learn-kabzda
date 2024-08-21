@@ -1,0 +1,31 @@
+.onOff {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.default{
+cursor: pointer;
+}
+.on {
+
+    border: 1px solid black;
+    background-color: green;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.Off {
+
+    border: 1px solid black;
+    background-color: red;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 7px;
+    height: 14px;
+    border: 1px solid black;
+
+}
