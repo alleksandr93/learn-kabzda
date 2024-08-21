@@ -11,7 +11,6 @@ export const Accordion = (props:AccordionPropsType) => {
         {!props.collapsed&&<AccordionBody/>}
     </div>
 }
-
 type AccordionTitlePropsType={
     title:string
 }
