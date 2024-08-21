@@ -1,17 +1,25 @@
 import React from 'react';
-type AccordionProps={
-    title:string
+
+type AccordionPropsType={
+    titleValue:string
+    collapsed:boolean
 }
-export const Accordion = (props:AccordionProps) => {
+export const Accordion = (props:AccordionPropsType) => {
     console.log('Accordion rendering')
     return <div>
-        <AccordionTitle title={props.title}/>
-        <AccordionBody/>
+        <AccordionTitle title={props.titleValue}/>
+        {!props.collapsed&&<AccordionBody/>}
     </div>
 }
-const AccordionTitle=(props:AccordionProps)=> {
+
+type AccordionTitlePropsType={
+    title:string
+}
+const AccordionTitle=(props:AccordionTitlePropsType)=> {
+    console.log('AccordionTitle rendering')
     return <h3>{props.title}</h3>
 }
+
 const AccordionBody=()=> {
     return <ul>
         <li>1</li>

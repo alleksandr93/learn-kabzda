@@ -8,19 +8,19 @@ const App = () => {
     console.log('App rendering')
     return (
         <div>
-            <PageTitle title={'This is APP Component'}/>
-            <PageTitle title={'My Friends'}/>
-            <Rating value={2}/>
-            <Accordion title={'Menu'}/>
-            <Accordion title={'Not Menu'}/>
-            <Rating value={4}/>
+            {/*<PageTitle title={'This is APP Component'}/>*/}
+            {/*<PageTitle title={'My Friends'}/>*/}
+            {/*<Rating value={0}/>*/}
+            <Accordion titleValue={'Menu'} collapsed={true}/>
+            <Accordion titleValue={'Users'} collapsed={false}/>
+            {/*<Rating value={4}/>*/}
         </div>
     );
 }
-type PageTitleProps={
+type PageTitlePropsType = {
     title: string
 }
-const PageTitle = (props:PageTitleProps) => {
+const PageTitle = (props: PageTitlePropsType) => {
     return <h1>{props.title}</h1>
 }
 export default App;
