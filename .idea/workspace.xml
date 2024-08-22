@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d789b31-493a-4b17-bcff-913cdc0e634b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stories/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Input.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <updated>1724271782056</updated>
       <workItem from="1724271784631" duration="3575000" />
       <workItem from="1724323418599" duration="4425000" />
-      <workItem from="1724333209453" duration="7175000" />
+      <workItem from="1724333209453" duration="10141000" />
     </task>
     <task id="LOCAL-00001" summary="10 - 1 Storybook review">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724336642393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12 - Uncontrolled Input">
+      <option name="closed" value="true" />
+      <created>1724345733940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724345733940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
     <MESSAGE value="10 - 1 Storybook review" />
     <MESSAGE value="10 - 2 Storybook" />
     <MESSAGE value="11 - Storybook, defaultValue" />
-    <option name="LAST_COMMIT_MESSAGE" value="11 - Storybook, defaultValue" />
+    <MESSAGE value="12 - Uncontrolled Input" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 - Uncontrolled Input" />
   </component>
 </project>
