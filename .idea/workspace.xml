@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d789b31-493a-4b17-bcff-913cdc0e634b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledAccordion/UnControlledAccordion.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledOnOff/UnControlledOnOff.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledRating/UnControlledRating.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Learn/incubator/learn-kabzda/src/components/OnOff",
+    "last_opened_file_path": "C:/Learn/incubator/learn-kabzda/src/components/UnControlledRating",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,9 +57,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learn\incubator\learn-kabzda\src\components\UnControlledRating" />
+      <recent name="C:\Learn\incubator\learn-kabzda\src\components\UnControlledOnOff" />
+      <recent name="C:\Learn\incubator\learn-kabzda\src\components\UnControlledAccordion" />
       <recent name="C:\Learn\incubator\learn-kabzda\src\components\OnOff" />
       <recent name="C:\Learn\incubator\learn-kabzda\src\components\Rating" />
-      <recent name="C:\Learn\incubator\learn-kabzda\src\components\Accordion" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724271782056</updated>
       <workItem from="1724271784631" duration="3575000" />
-      <workItem from="1724323418599" duration="3948000" />
+      <workItem from="1724323418599" duration="4425000" />
+      <workItem from="1724333209453" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="10 - 1 Storybook review">
       <option name="closed" value="true" />
@@ -106,14 +108,46 @@
       <option name="project" value="LOCAL" />
       <updated>1724277611580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10 - 2 Storybook">
+      <option name="closed" value="true" />
+      <created>1724331031238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724331031238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10 - 1 Storybook review" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 - 1 Storybook review" />
+    <MESSAGE value="10 - 2 Storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 - 2 Storybook" />
   </component>
 </project>
