@@ -7,6 +7,7 @@ import {UnControlledRating} from './components/UnControlledRating/UnControlledRa
 import {Rating, RatingValueType} from './components/Rating/Rating';
 import {Accordion} from './components/Accordion/Accordion';
 import {UnControlledOnOff} from './components/UnControlledOnOff/UnControlledOnOff';
+import {Select} from './components/Select/Select';
 
 const App = () => {
     const [ratingValue, setRatingValue] = React.useState<RatingValueType>(1);
@@ -14,13 +15,14 @@ const App = () => {
     const [switchOn, setSwitchOn] = React.useState<boolean>(false)
     console.log(switchOn)
     console.log('App rendering')
+    const cityArr=[
+        {title: 'Krasnoyarsk', value: 1},
+        {title: 'Omsk', value: 2},
+        {title: 'Moscow', value: 3},
+    ]
     return (
         <div>
-            <Accordion titleValue={'Menu'} collapsed={accordionCollabsed}
-                       onChange={()=>setAccordionCollabsed(!accordionCollabsed)}/>
-            {/*<OnOff on={switchOn} onChange={(onOff)=>setSwitchOn(onOff)}/>*/}
-
-          <UnControlledOnOff onChange={(on)=>setSwitchOn(on)}/>{switchOn.toString()}
+          <Select value={cityArr[0].title} onChange={()=>{}} items={cityArr}/>
 
         </div>
     );
