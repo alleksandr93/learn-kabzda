@@ -22,7 +22,7 @@ const App = () => {
     ]
     return (
         <div>
-          <Select value={cityArr[0].title} onChange={()=>{}} items={cityArr}/>
+          <Select value={cityArr[0].title}  onChange={()=>{}} items={cityArr}/>
 
         </div>
     );

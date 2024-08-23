@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d789b31-493a-4b17-bcff-913cdc0e634b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,7 @@
       <recent name="C:\Learn\incubator\learn-kabzda" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -106,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +124,7 @@
       <workItem from="1724271784631" duration="3575000" />
       <workItem from="1724323418599" duration="4425000" />
       <workItem from="1724333209453" duration="10355000" />
-      <workItem from="1724362174757" duration="6487000" />
+      <workItem from="1724362174757" duration="16509000" />
     </task>
     <task id="LOCAL-00001" summary="10 - 1 Storybook review">
       <option name="closed" value="true" />
@@ -171,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724348491046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="14 add array of items to accordion">
+      <option name="closed" value="true" />
+      <created>1724368985638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724368985638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +209,7 @@
     <MESSAGE value="11 - Storybook, defaultValue" />
     <MESSAGE value="12 - Uncontrolled Input" />
     <MESSAGE value="13 - controlled input, checkbox, select" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 - controlled input, checkbox, select" />
+    <MESSAGE value="14 add array of items to accordion" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 add array of items to accordion" />
   </component>
 </project>

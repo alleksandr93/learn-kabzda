@@ -1,28 +1,19 @@
-.select {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 5px 10px;
+.select span.main {
     border: 1px solid #000;
-    border-radius: 5px;
-    position: relative;
-cursor: pointer;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 40px;
 }
 
-.selectTitle {
-
-
+.items {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid red;
 }
-.selectItem{
-    text-align: center;
-}
-.selectItem:hover {
-   background-color: #ecec13;
-    border-radius: 3px;
-}
-.selectItem:first-child{
-    margin-top: 30px;
 
 
+.item.selected {
+    background-color: blue;
+    color: white;
 }
 

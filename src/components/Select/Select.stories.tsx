@@ -8,11 +8,15 @@ export default {
     component: Select
 }
 const cityArr=[
-    {title: 'Krasnoyarsk', value: 1},
-    {title: 'Omsk', value: 2},
-    {title: 'Moscow', value: 3},
+    {title: 'Minsk', value: '1'},
+    {title: 'Moscow', value: '2'},
+    {title: 'Omsk', value: '3'},
 ]
-export const testSelect = () => {
-
-    return <Select items={cityArr} value={'Krasnoyars'} onChange={()=>{}}/>
+export const BaseExaple = () => {
+    const [value, setValue] = useState('2')
+    return <Select items={cityArr} value={value} onChange={setValue}/>
+}
+export const WithoutValue = () => {
+    const [value, setValue] = useState(null)
+    return <Select value={value} items={cityArr} onChange={setValue}/>
 }
