@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import s from './OnOff.module.css'
 type OnOffPropsType = {
     on:boolean
@@ -12,4 +12,4 @@ export const OnOff = (props:OnOffPropsType) => {
         <div  className={`${props.on ? s.on : s.Off} ${s.circle}`}></div>
     </div>
 };
-
+export const OnOffMemo=memo(OnOff)

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 
 export type RatingValueType = 0 | 1 | 2 | 3 | 4 | 5
 type RatingPropsType = {
@@ -27,3 +27,5 @@ const Star = (props: StarPropsType) => {
     return <span style={{cursor: 'pointer'}} onClick={() => props.onClick(props.value)}>{props.selected ?
         <b>Star</b> : 'Star'}</span>
 }
+export const RatingMemo = memo(Rating)
+export const StarMemo = memo(Star)

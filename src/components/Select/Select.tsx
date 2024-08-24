@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {memo, useEffect, useState} from 'react';
 import styles from './Select.module.css';
 import {isUndefined} from 'node:util';
 
@@ -76,3 +76,4 @@ export const Select = (props: SelectPropsType) => {
     );
 };
 
+export const SelectMemo=memo(Select)

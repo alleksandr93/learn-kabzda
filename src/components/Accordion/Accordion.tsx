@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 
 type ItemType = {
     title: string;
@@ -11,6 +11,8 @@ type AccordionPropsType = {
     items: ItemType[]
     onClick: (value: any) => void
 }
+
+
 export const Accordion = (props: AccordionPropsType) => {
     console.log('Accordion rendering')
     return <div>
@@ -36,3 +38,6 @@ const AccordionBody = (props: AccordionBodyPropsType) => {
         {props.items.map((item, index) => <li onClick={() => props.onClick(item.value)} key={index}>{item.title}</li>)}
     </ul>
 }
+export const AccordionMemo = memo(Accordion)
+export const AccordionTitleMemo = memo(AccordionTitle)
+export const AccordionBodyMemo = memo(AccordionBody)
