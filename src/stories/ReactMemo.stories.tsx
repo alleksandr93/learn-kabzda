@@ -25,6 +25,4 @@ export const Exmple1 = () => {
         <Message count={counter}/>
         <Users users={users}/>
     </>
-
-
 }
