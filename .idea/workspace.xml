@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d789b31-493a-4b17-bcff-913cdc0e634b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseCallback.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,8 @@
       <workItem from="1724362174757" duration="17359000" />
       <workItem from="1724456075530" duration="10242000" />
       <workItem from="1725204999595" duration="10528000" />
-      <workItem from="1725875855116" duration="3186000" />
+      <workItem from="1725875855116" duration="3929000" />
+      <workItem from="1727776343776" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="10 - 1 Storybook review">
       <option name="closed" value="true" />
@@ -262,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725227324438</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="18  useCallback">
+      <option name="closed" value="true" />
+      <created>1725879203974</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725879203974</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +311,7 @@
     <MESSAGE value="16 useReducer" />
     <MESSAGE value="17   react memo" />
     <MESSAGE value="18  useMemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="18  useMemo" />
+    <MESSAGE value="18  useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="18  useCallback" />
   </component>
 </project>
